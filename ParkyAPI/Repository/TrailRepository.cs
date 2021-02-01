@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace ParkyAPI.Repository
 {
+    //Trail repository
     public class TrailRepository : ITrailRepository
     {
         private readonly ApplicationDbContext _db;
