@@ -65,6 +65,7 @@ namespace ParkyAPI.Controllers
         [ProducesResponseType(500)]
         public IActionResult CreateTrail([FromBody] TrailCreateDto trailDto)
         {
+            //neke provere
             if(trailDto == null)
             {
                 return BadRequest(ModelState);

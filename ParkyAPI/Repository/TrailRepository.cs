@@ -12,6 +12,7 @@ namespace ParkyAPI.Repository
     //Trail repository
     public class TrailRepository : ITrailRepository
     {
+        //jos primera za pull i merge
         private readonly ApplicationDbContext _db;
 
         public TrailRepository(ApplicationDbContext db)
