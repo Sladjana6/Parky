@@ -77,6 +77,7 @@ namespace ParkyAPI.Controllers
                 ModelState.AddModelError("", "Trail already exsists!");
                 return StatusCode(404, ModelState);
             }
+            //jos jedan primer
 
             var trail = _mapper.Map<Trail>(trailDto);
 
