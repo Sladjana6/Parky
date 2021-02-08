@@ -21,5 +21,7 @@ namespace ParkyAPI.Models.Dtos
         [Required]
         public int NationalParkId { get; set; }
 
+        //tamo neki dto dole
+
     }
 }
