@@ -16,6 +16,7 @@ namespace ParkyAPI.Controllers
     [ProducesResponseType(400)]
     public class NationalParksController : Controller
     {
+        //neki kontroler
         private readonly INationalParkRepository _nationalParkRepository;
         private readonly IMapper _mapper;
 
