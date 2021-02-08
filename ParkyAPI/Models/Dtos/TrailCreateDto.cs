@@ -9,7 +9,7 @@ namespace ParkyAPI.Models.Dtos
 {
     public class TrailCreateDto
     {
-
+        //tamo neki dto
         [Required]
         public string Name { get; set; }
 
