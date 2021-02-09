@@ -18,6 +18,7 @@ namespace ParkyAPI.ParkyMapper
             //Goran4
             //Goran5
             //Goran6
+            //moja proba
             CreateMap<NationalPark, NationalParkDto>().ReverseMap();
             CreateMap<Trail, TrailDto>().ReverseMap(); 
             CreateMap<Trail, TrailUpdateDto>().ReverseMap();
