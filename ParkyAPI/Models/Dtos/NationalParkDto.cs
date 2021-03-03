@@ -11,6 +11,8 @@ namespace ParkyAPI.Models.Dtos
         //1. izmena za Git sa dete grane
 
         //2. izmena za Git sa mastera
+
+        //3. izmena sa mastera
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
