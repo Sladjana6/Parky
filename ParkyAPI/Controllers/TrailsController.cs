@@ -19,6 +19,7 @@ namespace ParkyAPI.Controllers
         private readonly ITrailRepository _trailRepository;
         private readonly IMapper _mapper;
 
+        //example 
         public TrailsController(ITrailRepository trailRepository, IMapper mapper)
         {
             _mapper = mapper;
