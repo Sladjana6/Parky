@@ -12,6 +12,8 @@ namespace ParkyAPI.Models.Dtos
 
         //2. izmena za Git sa mastera
 
+        //3. izmena sa mastera
+
         //3.izmena sa probe
         public int Id { get; set; }
         [Required]
@@ -20,6 +22,9 @@ namespace ParkyAPI.Models.Dtos
         public string State { get; set; }
         public DateTime Created { get; set; }
         public byte[] Picture { get; set; }
+
+
+        //ovo je 4.izmena sa mastera
         public DateTime Established { get; set; }
     
     //ovo je 4.izmena sa probe
