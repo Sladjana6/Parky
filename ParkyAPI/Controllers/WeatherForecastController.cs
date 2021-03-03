@@ -11,6 +11,8 @@ namespace ParkyAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+
+        //Proba sa mastera1
         private static readonly string[] Summaries = new[]
         {
             //proba sa merge mastera1
