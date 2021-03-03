@@ -13,6 +13,7 @@ namespace ParkyAPI.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
+            //proba sa merge mastera1
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
