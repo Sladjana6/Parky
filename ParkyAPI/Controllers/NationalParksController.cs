@@ -25,6 +25,9 @@ namespace ParkyAPI.Controllers
             _nationalParkRepository = nationalParkRepository;
         }
 
+
+
+        //Porba sa master2
         /// <summary>
         /// Get all national parks.
         /// </summary>
