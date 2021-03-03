@@ -9,6 +9,8 @@ namespace ParkyAPI.Models.Dtos
     public class NationalParkDto
     {
         //1. izmena za Git sa dete grane
+
+        //2. izmena za Git sa mastera
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
