@@ -20,6 +20,9 @@ namespace ParkyAPI.Models.Dtos
         public string State { get; set; }
         public DateTime Created { get; set; }
         public byte[] Picture { get; set; }
+
+
+        //ovo je 4.izmena sa mastera
         public DateTime Established { get; set; }
     }
 }
